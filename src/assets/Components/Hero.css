@@ -1,0 +1,53 @@
+#heroContainer {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#heroContainer h5 {
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 0.3rem;
+}
+
+#heroContainer h5 span {
+  margin: 0 0.5rem;
+  text-transform: uppercase;
+}
+
+#heroContainer img {
+  max-width: 20%;
+}
+
+#heroContainer h1 {
+  font-size: 12rem;
+  margin: 0;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#heroContainer h1 span:first-child {
+  color: var(--heroCream);
+  font-style: normal;
+}
+
+#heroContainer h4 {
+  font-weight: 100;
+  color: var(--heroCream);
+  letter-spacing: 0.3rem;
+  font-style: italic;
+  margin: -2rem 0;
+}
+
+.columnDx {
+  height: 400px;
+  width: 40%;
+  padding: 0 2rem;
+}
+
+.columnDx p {
+  color: var(--heroCream);
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}

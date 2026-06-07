@@ -1,8 +1,8 @@
 #navBarContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 #navBarContainer div img {
@@ -19,7 +19,7 @@
 
 .menu li a {
   text-decoration: none;
-  margin: 0 2rem;
+  margin: 0 5rem 0 0;
   font-weight: 600;
   color: var(--heroCream);
 }

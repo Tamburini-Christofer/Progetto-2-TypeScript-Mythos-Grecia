@@ -1,7 +1,9 @@
 import './App.css';
 import './assets/Components/NavBar.css';
+import './assets/Components/Hero.css';
 
 import NavBar from './assets/Components/NavBar.tsx';
+import Hero from './assets/Components/Hero.tsx';
 import Main from './assets/Components/Main.tsx';
 import Footer from './assets/Components/Footer.tsx';
 
@@ -10,9 +12,10 @@ function App() {
     <>
       <header id="headerContainer">
         <NavBar />
+        <Hero />
       </header>
 
-      <main>
+      <main id="principalContainer">
         <Main />
       </main>
 

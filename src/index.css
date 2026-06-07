@@ -13,4 +13,6 @@ h4,
 h5,
 h6 {
   font-family: 'Cinzel', serif;
+  color: var(--heroRed);
+  margin: 0;
 }

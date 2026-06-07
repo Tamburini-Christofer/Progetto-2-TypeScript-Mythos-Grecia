@@ -17,8 +17,6 @@ function NavBar(): React.JSX.Element {
             </ul>
           </nav>
         </div>
-
-        <div className="annoMenu">MMXXVI</div>
       </div>
     </>
   );
