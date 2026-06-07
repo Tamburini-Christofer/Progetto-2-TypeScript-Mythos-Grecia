@@ -11,7 +11,7 @@ body {
 
 #principalContainer {
   padding: 0 4rem;
-  height: 2000px;
+  border-top: 10px double var(--heroRed);
 }
 
 #headerContainer {

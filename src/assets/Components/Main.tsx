@@ -33,8 +33,6 @@ function Main(): React.JSX.Element {
         <Card />
         <Card />
       </div>
-
-      <div></div>
     </>
   );
 }

@@ -17,8 +17,16 @@ function App() {
         <Hero />
       </header>
 
-      <main id="principalContainer">
-        <Main />
+      <main>
+        <div id="principalContainer">
+          <Main />
+        </div>
+
+        <div className="protagoraContainer">
+          <cite>«Πάντων χρημάτων μέτρον ἄνθρωπος»</cite>
+          <p>L'uomo è misura di tutte le cose.</p>
+          <span>— Protagora · V sec. a.C.</span>
+        </div>
       </main>
 
       <footer>
