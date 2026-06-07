@@ -1,0 +1,36 @@
+#footerContainer {
+  padding: 3em;
+}
+
+#footerContainer hr {
+  margin: 0.5rem 0 2rem 0;
+}
+
+.containerValuesFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerValuesFooter h4 {
+  color: var(--heroRed);
+  font-size: 12px;
+  margin: 0 0 0.5rem 0;
+}
+
+.containerValuesFooter h2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.containerValuesFooter p {
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0.1rem;
+  line-height: 2em;
+}
+
+.containerValuesFooter div {
+  margin: 0.5em 0;
+  color: var(--heroRed);
+}

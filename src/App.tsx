@@ -3,6 +3,7 @@ import './assets/Components/NavBar.css';
 import './assets/Components/Hero.css';
 import './assets/Components/Main.css';
 import './assets/Components/Card.css';
+import './assets/Components/Footer.css';
 
 import NavBar from './assets/Components/NavBar.tsx';
 import Hero from './assets/Components/Hero.tsx';
