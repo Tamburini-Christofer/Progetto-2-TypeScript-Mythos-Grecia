@@ -1,3 +1,16 @@
 :root {
-  background-color: black;
+  --heroRed: #8c2f2a;
+  --heroCream: #d1c0a6;
+  --heroEarth: #9b7a5b;
+  --heroBrown: #5b4b3a;
+  --heroTartaro: #2b2a28;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cinzel', serif;
 }
