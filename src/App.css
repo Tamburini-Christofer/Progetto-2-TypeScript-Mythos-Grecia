@@ -1,3 +1,12 @@
 body {
   background-color: var(--heroEarth);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerContainer {
+  height: 600px;
+  width: 100%;
+  background-color: var(--heroTartaro);
 }

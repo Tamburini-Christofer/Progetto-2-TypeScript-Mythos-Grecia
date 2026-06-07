@@ -1,0 +1,34 @@
+#navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#navBarContainer div img {
+  width: 5rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  margin: 0 2rem;
+  font-weight: 600;
+  color: var(--heroCream);
+}
+
+.menu li a:hover {
+  color: var(--heroRed);
+}
+
+.annoMenu {
+  font-weight: 600;
+  color: var(--heroCream);
+}
