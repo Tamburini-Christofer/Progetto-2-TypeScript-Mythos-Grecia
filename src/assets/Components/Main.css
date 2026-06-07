@@ -1,0 +1,35 @@
+.cardsContainer {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardsContainer div:first-child {
+  width: 30%;
+}
+
+.cardsContainer span {
+  font-weight: 100;
+  color: var(--heroRed);
+  letter-spacing: 0.2rem;
+}
+
+.cardsContainer h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.cardsContainer div:last-child {
+  width: 30%;
+  line-height: 2rem;
+  color: black;
+  text-align: end;
+}
+
+.grigliaCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}

@@ -5,19 +5,20 @@
 }
 
 body {
-  background-color: var(--heroEarth);
+  background-color: #e8dfd0;
+  background-size: cover;
 }
 
 #principalContainer {
-  padding: 0 2rem;
+  padding: 0 4rem;
+  height: 2000px;
 }
 
 #headerContainer {
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(./sfondoHero.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url(./sfondoHero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 70%;
-  height: 600px;
+  background-position-y: 60%;
   width: 100%;
   background-color: var(--heroTartaro);
 }

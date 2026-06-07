@@ -1,0 +1,59 @@
+.cardContainer {
+  background-color: aqua;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--heroCream);
+  padding: 1rem;
+}
+
+.mainCards {
+  background-color: #f7f1e8;
+  border: 1px solid #bebebe;
+  padding: 1rem;
+}
+
+.mainCards h4 {
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.mainCards h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.mainCards hr {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 2px dotted var(--heroBrown);
+}
+
+.mainCards h3 {
+  font-size: 14px;
+}
+
+.mainCards div {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.mainCards p {
+  color: var(--heroBrown);
+}
+
+.footerCards {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+  background-color: var(--heroTartaro);
+  color: var(--heroCream);
+}
+
+.footerCards div {
+  font-size: 16px;
+}

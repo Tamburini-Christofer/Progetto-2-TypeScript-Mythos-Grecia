@@ -1,5 +1,5 @@
 #heroContainer {
-  padding: 4rem;
+  padding: 2rem 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -8,6 +8,7 @@
   font-size: 12px;
   margin: 0;
   letter-spacing: 0.3rem;
+  color: var(--heroCream);
 }
 
 #heroContainer h5 span {
