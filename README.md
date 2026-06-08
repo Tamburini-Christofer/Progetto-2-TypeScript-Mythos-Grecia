@@ -51,5 +51,4 @@
 ###
 
 ![immagine principale](./public/Tablet.png)
-![immagine principale](./public/Smartphone.png)
 ![immagine principale](./public/SmartphoneSim.png)
