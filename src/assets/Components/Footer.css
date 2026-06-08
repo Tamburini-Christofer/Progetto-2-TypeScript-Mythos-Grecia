@@ -1,5 +1,5 @@
 #footerContainer {
-  padding: 3em;
+  padding: clamp(1.2rem, 4vw, 3rem);
 }
 
 #footerContainer hr {
@@ -9,6 +9,7 @@
 .containerValuesFooter {
   display: flex;
   justify-content: space-around;
+  gap: 2rem;
 }
 
 .containerValuesFooter h4 {
@@ -33,4 +34,32 @@
 .containerValuesFooter div {
   margin: 0.5em 0;
   color: var(--heroRed);
+}
+
+@media (max-width: 768px) {
+  .containerValuesFooter {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  .containerValuesFooter > div {
+    flex: 1 1 220px;
+  }
+
+  .containerValuesFooter p {
+    line-height: 1.6;
+    letter-spacing: 0.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerValuesFooter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .containerValuesFooter > div {
+    flex: 1 1 auto;
+  }
 }

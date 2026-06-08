@@ -10,7 +10,7 @@ body {
 }
 
 #principalContainer {
-  padding: 0 4rem;
+  padding: 0 clamp(1rem, 4vw, 4rem);
   border-top: 10px double var(--heroRed);
 }
 
@@ -21,4 +21,16 @@ body {
   background-position-y: 60%;
   width: 100%;
   background-color: var(--heroTartaro);
+}
+
+@media (max-width: 1024px) {
+  #principalContainer {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #principalContainer {
+    padding: 0 1rem;
+  }
 }

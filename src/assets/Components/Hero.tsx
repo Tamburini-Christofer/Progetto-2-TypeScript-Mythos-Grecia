@@ -8,8 +8,8 @@ function Hero(): React.JSX.Element {
             <span>Μουσεῖον</span> · <span>collezione</span> · <span>Vol. I</span>
           </h5>
           <h1>
-            <span>Πάν</span>
-            <span>θεον</span>
+            <span>Pan</span>
+            <span>theos</span>
           </h1>
           <h4>
             <em>Il Pantheon dell'Antica Grecia</em>
@@ -19,9 +19,8 @@ function Hero(): React.JSX.Element {
         <div className="columnDx">
           <p>
             Dodici figure fondative del pensiero greco: <br />
-            <br /> i loro nomi, i loro simboli, i loro domini sacri. <br />
+            <br /> Il loro nome originale | il corrispettivo Romano | il proprio dominio! <br />
             <br />
-            Una raccolta tipografica concepita come un museo di carta: lenta, precisa, devozionale.
           </p>
         </div>
       </div>

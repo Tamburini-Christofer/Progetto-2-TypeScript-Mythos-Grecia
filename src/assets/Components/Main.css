@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 
 .cardsContainer div:first-child {
@@ -18,7 +19,7 @@
 .cardsContainer h3 {
   color: black;
   font-weight: 600;
-  font-size: 40px;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
 }
 
 .cardsContainer div:last-child {
@@ -37,7 +38,7 @@
 .protagoraContainer {
   background-color: var(--heroTartaro);
   margin: 3rem 0;
-  padding: 14rem 12rem;
+  padding: clamp(4rem, 11vw, 14rem) clamp(1rem, 8vw, 12rem);
   text-align: center;
   border-top: 10px double var(--heroRed);
   border-bottom: 10px double var(--heroRed);
@@ -45,17 +46,59 @@
 
 .protagoraContainer cite {
   color: var(--heroRed);
-  font-size: 80px;
+  font-size: clamp(2rem, 7vw, 5rem);
 }
 
 .protagoraContainer p {
   color: var(--heroCream);
-  font-size: 40px;
+  font-size: clamp(1.3rem, 4vw, 2.5rem);
   margin: 3rem 0;
   font-style: italic;
 }
 
 .protagoraContainer span {
-  font-size: 20px;
+  font-size: clamp(0.9rem, 2vw, 1.25rem);
   color: var(--heroEarth);
+}
+
+@media (max-width: 1024px) {
+  .cardsContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardsContainer div:first-child,
+  .cardsContainer div:last-child {
+    width: 100%;
+  }
+
+  .cardsContainer div:last-child {
+    text-align: start;
+    line-height: 1.7;
+  }
+
+  .grigliaCards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grigliaCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .protagoraContainer {
+    margin: 2rem 0;
+  }
+
+  .protagoraContainer p {
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .grigliaCards {
+    grid-template-columns: 1fr;
+  }
 }
