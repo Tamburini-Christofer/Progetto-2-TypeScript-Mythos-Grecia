@@ -1,4 +1,5 @@
 import Card from './Card';
+import { divinitaOlimpiche } from '../Data/DeiOlimpo';
 
 function Main(): React.JSX.Element {
   return (
@@ -20,18 +21,9 @@ function Main(): React.JSX.Element {
       </div>
 
       <div className="grigliaCards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {divinitaOlimpiche.map((d) => (
+          <Card key={d.id} divinita={d} />
+        ))}
       </div>
     </>
   );

@@ -1,7 +1,14 @@
 .cardContainer {
-  background-color: aqua;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
+.cardContainer:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0px 10px var(--heroRed);
+}
 .title {
   display: flex;
   justify-content: space-between;
